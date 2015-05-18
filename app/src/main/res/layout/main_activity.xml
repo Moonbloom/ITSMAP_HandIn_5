@@ -1,0 +1,21 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/main_activity_filter_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="5dp"
+        android:enabled="false"
+        android:hint="@string/main_activity_filter_edittext_hint"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_activity_filter_edittext"/>
+
+</RelativeLayout>

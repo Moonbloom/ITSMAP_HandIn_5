@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ActionBar -->
+    <color name="ActionBarColor">@color/MaterialGreen</color>
+    <color name="ActionBarTitleColor">@color/White</color>
+    <color name="ActionBarSubtitleColor">@color/White</color>
+
+    <!-- Material colors -->
+    <color name="MaterialRed">#FFF44336</color>
+    <color name="MaterialAmber">#FFFFC107</color>
+    <color name="MaterialGreen">#FF4CAF50</color>
+    <color name="MaterialBlue">#FF2196F3</color>
+
+    <color name="MaterialDarkRed">#FFD32F2F</color>
+    <color name="MaterialDarkAmber">#FFFFA000</color>
+    <color name="MaterialDarkGreen">#FF388E3C</color>
+    <color name="MaterialDarkBlue">#FF1976D2</color>
+
+    <!-- Standard colors -->
+    <color name="Black">#FF000000</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="Grey">#FF808080</color>
+    <color name="Yellow">#FFFFFF00</color>
+    <color name="Blue">#FF0000FF</color>
+    <color name="Green">#FF00FF00</color>
+    <color name="Red">#FFFF0000</color>
+
+</resources>

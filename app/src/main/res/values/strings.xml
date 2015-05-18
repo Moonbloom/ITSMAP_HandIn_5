@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">ITSMAP HandIn 5</string>
+    <!--<string name="app_name">H5_Grp14_201206094</string>-->
+
+    <string name="action_update_list">Update list</string>
+    <string name="no_network_error">Can\'t download train list without internet</string>
+    <string name="main_activity_filter_edittext_hint">Filter results &#8230;</string>
+    <string name="main_activity_update_train_list_toast">Updating train list</string>
+    <string name="secret_unlocked">Secret unlocked</string>
+
+</resources>
