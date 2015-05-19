@@ -70,14 +70,13 @@ public class MainActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
 
-        if(NetworkHelper.isNetworkAvailable()) {
-            getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
-        } else {
-            getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+        ButterKnife.inject(this);
+
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+
+        if(!NetworkHelper.isNetworkAvailable()) {
             Boast.makeText(this, R.string.no_network_error, BStyle.ALERT);
         }
-
-        ButterKnife.inject(this);
 
         trainList = new ArrayList<>();
         adapter = new TrainListAdapter(this, R.layout.train_list_tile, trainList);
